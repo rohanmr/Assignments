@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 10px auto;
+      }
+      .hading {
+        text-align: center;
+        margin: 20px;
+        color: blueviolet;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      td {
+        font-size: large;
+      }
+
+      th {
+        background-color: blueviolet;
+        color: whitesmoke;
+        font-size: larger;
+      }
+      tr:nth-child(odd) {
+        background-color: rgba(169, 116, 219, 0.548);
+      }
+
+      button {
+        border: none;
+        background-color: blueviolet;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hading">
+      <h1><i class="fa-solid fa-bell-concierge"></i>Hotel Menu Card</h1>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Sr No</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>001</td>
+          <td>Tea <i class="fa-solid fa-mug-hot"></i></td>
+          <td>Teapowder+Sugar+Milk</td>
+          <td>₹ 20</td>
+          <td><button>Order</button></td>
+        </tr>
+        <tr>
+          <td>002</td>
+          <td>Burgar <i class="fa-solid fa-burger"></i></td>
+          <td>Bredr+vagitable+Patti</td>
+          <td>₹ 50</td>
+          <td><button>Order</button></td>
+        </tr>
+        <tr>
+          <td>003</td>
+          <td>Pizza <i class="fa-solid fa-pizza-slice"></i></td>
+          <td>Chees+Corn+chutny+sause</td>
+          <td>₹ 90</td>
+          <td><button>Order</button></td>
+        </tr>
+        <tr>
+          <td>005</td>
+          <td>Biryani <i class="fa-solid fa-bowl-rice"></i></td>
+          <td>Rice+vagetable+Masala</td>
+          <td>₹ 100</td>
+          <td><button>Order</button></td>
+        </tr>
+        <tr>
+          <td>006</td>
+          <td>Cold Drink <i class="fa-solid fa-wine-glass"></i></td>
+          <td>Soda+Water+Sugar</td>
+          <td>₹ 20</td>
+          <td><button>Order</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="hading"><h1>Colspan And Rowspan Table</h1></div>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2">Avarge</th>
+          <th rowspan="2">Red Eye</th>
+        </tr>
+        <tr>
+          <th>Height</th>
+          <th>Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Male <i class="fa-solid fa-person"></i></td>
+          <td>5.9</td>
+          <td>60</td>
+          <td>40%</td>
+        </tr>
+        <tr>
+          <td>Femal <i class="fa-solid fa-person-dress"></i></td>
+          <td>4.5</td>
+          <td>40</td>
+          <td>40%</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
