@@ -115,7 +115,7 @@ nav {
   align-items: center;
 }
 
-.search {
+.search_bbc {
   margin-left: 20px;
   height: 30px;
   padding: 0px 8px;
@@ -192,9 +192,14 @@ nav {
   margin-top: 5px;
 }
 
-.search {
-  background-color: rgb(241, 237, 237);
+.search_insta {
+  background-color: rgb(247, 246, 246);
   border: 1px solid rgb(189, 187, 187);
+  margin-left: 20px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0px 8px;
+  width: 220px;
 }
 
 .insta_icon {
@@ -209,7 +214,7 @@ nav {
   border-bottom: 1px solid red;
 }
 
-.search::placeholder {
+.search_insta::placeholder {
   text-align: center;
 }
 
@@ -274,3 +279,223 @@ nav {
 }
 
 /* Youtbe Navar End */
+
+/* Gmail Navbar Start */
+.gmail_nav {
+  height: 55px;
+  background-color: white;
+}
+
+.gmail_iconList {
+  color: gray;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.gmail_logo {
+  height: 30px;
+}
+
+.search_container_gmail {
+  margin-left: 10px;
+}
+
+.gmail_icon {
+  color: gray;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.gmail_search {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: rgb(238, 238, 238);
+  width: 500px;
+}
+
+.gmail_icon_link {
+  font-size: larger;
+
+  color: gray;
+  margin-right: 20px;
+}
+
+.gmail_icon_link:hover {
+  color: black;
+}
+
+/* Gmail Navbar End */
+
+/* Bootstrap Navbar */
+
+.bootstrap_nav {
+  height: 60px;
+  background: #7952b3;
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link_button {
+  margin-left: 10px;
+  text-decoration: none;
+  color: yellow;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid yellow;
+}
+
+.link_button:hover {
+  color: #000;
+  background-color: yellow;
+  border-color: black;
+}
+
+.Boot_logo {
+  border-radius: 10px;
+  height: 45px;
+  width: 50px;
+  margin-left: 30px;
+}
+
+.Boot_navList {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.Boot_navItem {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.Boot_navLink {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+
+.Boot_navLink:hover {
+  color: black;
+}
+
+.Boot_iconLink:hover {
+  color: black;
+}
+
+.Boot_iconLink {
+  color: white;
+  text-decoration: none;
+}
+
+/* Bootstrap Navbar End */
+
+/* Medium Navbar End */
+
+.logo_medium {
+  width: 100px;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.medium_icon {
+  font-size: larger;
+  color: gray;
+  margin-right: 20px;
+}
+
+.medium_icon:hover {
+  color: black;
+}
+
+/* Medium Navbar End */
+
+
+/* Facebook Navbar start */
+
+.logo_face {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+.face_icon {
+  font-size: large;
+  color: gray;
+
+}
+
+.face_icon_list {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.circle-button {
+  width: 35px;
+  height: 35px;
+  background: #e4e6eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.face_icon {
+  color: black;
+}
+
+.circle-button:hover {
+  background-color: #c5c5c7;
+}
+
+.face_nav_icon:hover,
+.face_nav_icon:active {
+  color: #584cff;
+}
+
+.nav-icon {
+  margin: 0 10px;
+  padding: 10px 20px;
+  position: relative;
+  margin-right: 50px;
+
+  cursor: pointer;
+}
+
+.nav-icon:hover,
+.nav-icon.active {
+  color: #584cff;
+  border-bottom: 3px solid #584cff;
+}
+
+
+.badge {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 12px;
+}
+
+.face_nav {
+  height: 55px;
+  background-color: white;
+}
+
+/* Facebook Navbar End */
