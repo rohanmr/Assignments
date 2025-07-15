@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./table.css">
+</head>
+
+<body>
+    <div class="list-group">
+        <div class="card fruits">
+            <div class="header">FRUITS</div>
+            <ol class="orderd">
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ol>
+        </div>
+        <div class="card vegetables">
+            <div class="header">VEGETABLES</div>
+            <ul class="listOne">
+                <li>Potato</li>
+                <li>Tomato</li>
+                <li>Onion</li>
+            </ul>
+        </div>
+        <div class="card groceries">
+            <div class="header">GROSERIES</div>
+            <ul class="listTwo">
+                <li>Apple</li>
+                <li>Mango</li>
+                <li>Orange</li>
+            </ul>
+        </div>
+    </div>
+    <div class="list-group">
+        <div>
+            <h1>Some of my Frvorite Links</h1>
+            <ul>
+                <li>
+                    <h3>Social Networking</h3>
+                </li>
+                <ul>
+                    <li><a href="">digg</a></li>
+                    <li><a href="">reddit</a></li>
+                    <li><a href="">instagram</a></li>
+                </ul>
+                <li>
+                    <h3>Refrance</h3>
+                </li>
+                <ul>
+                    <li><a href="">google</a></li>
+                    <li><a href="">wekipedia</a></li>
+                    <li><a href="">dictionary</a></li>
+
+                </ul>
+                <li>
+                    <h3>Web Development</h3>
+                </li>
+                <ul>
+                    <li>
+                        <h2>HTML/CSS</h2>
+
+                    </li>
+                    <ul>
+                        <li><a href="">w3school</a></li>
+                        <li><a href="">htmlhelp</a></li>
+                        <li><a href="">CSS Zen Garden</a></li>
+                    </ul>
+                    <li>
+                        <h2>Programming</h2>
+                    </li>
+                    <ul>
+                        <li><a href="">javascript.com</a></li>
+                        <li><a href="">React.org</a></li>
+                        <li><a href="">mysql.com</a></li>
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <table class="employe">
+            <thead>
+
+                <tr class="heading">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center; background-color: chartreuse;">
+                <tr class="tabledata">
+                    <td>James</td>
+                    <td>Jeo</td>
+                    <td>CEO</td>
+                    <td>$1300</td>
+                </tr>
+                <tr class="tabledata">
+                    <td>kate</td>
+                    <td>Harns</td>
+                    <td>Designer</td>
+                    <td>$1000</td>
+                </tr>
+                <tr class="tabledata">
+                    <td>Bryan</td>
+                    <td>Brian</td>
+                    <td>Team Leader</td>
+                    <td>$700</td>
+                </tr>
+                <tr class="tabledata">
+                    <td>Lesely</td>
+                    <td>Prcnic</td>
+                    <td>Author</td>
+                    <td>$500</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div style="margin-top: 40px">
+        <table>
+            <thead>
+                <th>Device</th>
+                <th>Brand</th>
+                <th>Specifications</th>
+            </thead>
+            <tbody>
+                <tr class="device_table">
+                    <td class="device_table">Smartphone</td>
+                    <td class="device_table">Apple</td>
+                    <td>
+                        <table>
+                            <thead>
+                                <th>Model</th>
+                                <th>Storage </th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>iphone 12 pro</td>
+                                    <td>256GB</td>
+                                </tr>
+                                <tr>
+                                    <td>iphone SE</td>
+                                    <td>128GB</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="device_table">
+                    <td class="device_table">Laptop</td>
+                    <td class="device_table">HP</td>
+                    <td class="device_table">15.6" Display</td>
+                </tr>
+                <tr class="device_table">
+                    <td class="device_table">Tablet</td>
+                    <td class="device_table">Samsung</td>
+                    <td class="device_table">10.5" Display</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h1 style="text-align: center;">Pricing Plans</h1>
+
+        <table class="pricing-table">
+            <thead>
+                <tr class="plan-list">
+                    <th>BASIC</th>
+                    <th class="popular">POPULAR</th>
+                    <th>PREMIER</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="plan-data">
+                    <td>
+                        <p>$30/MO</p>
+                    </td>
+                    <td>$60/MO</td>
+                    <td>$90/MO</td>
+                </tr>
+                <tr class="plan-data">
+                    <td><strong>256MB</strong> Memory</td>
+                    <td class="popular"><strong>512MB</strong> Memory</td>
+                    <td><strong>1024MB</strong> Memory</td>
+                </tr>
+                <tr class="plan-data">
+                    <td>1 User</td>
+                    <td class="popular">3 Users</td>
+                    <td>5 Users</td>
+                </tr>
+                <tr class="plan-data">
+                    <td>1 Website</td>
+                    <td class="popular">5 Websites</td>
+                    <td>10 Websites</td>
+                </tr>
+                <tr class="plan-data">
+                    <td>1 Domain</td>
+                    <td class="popular">7 Domains</td>
+                    <td>10 Domains</td>
+                </tr>
+                <tr class="plan-data">
+                    <td><strong>Unlimited</strong> Bandwidth</td>
+                    <td class="popular"><strong>Unlimited</strong> Bandwidth</td>
+                    <td><strong>Unlimited</strong> Bandwidth</td>
+                </tr>
+                <tr class="plan-data">
+                    <td>24/7 Support</td>
+                    <td class="popular">24/7 Support</td>
+                    <td>24/7 Support</td>
+                </tr>
+                <tr>
+                    <td><button class="select">SELECT</button></td>
+                    <td class="popular"><button class=" popular-btn">SELECT</button></td>
+                    <td><button class="select">SELECT</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="hading">
+        <h1><i class="fa-solid fa-bell-concierge"></i>Hotel Menu Card</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="menu">
+            <tr>
+                <td>001</td>
+                <td>Tea <i class="fa-solid fa-mug-hot"></i></td>
+                <td>Teapowder+Sugar+Milk</td>
+                <td>₹ 20</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Burgar <i class="fa-solid fa-burger"></i></td>
+                <td>Bredr+vagitable+Patti</td>
+                <td>₹ 50</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Pizza <i class="fa-solid fa-pizza-slice"></i></td>
+                <td>Chees+Corn+chutny+sause</td>
+                <td>₹ 90</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Biryani <i class="fa-solid fa-bowl-rice"></i></td>
+                <td>Rice+vagetable+Masala</td>
+                <td>₹ 100</td>
+                <td><button>Order</button></td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Cold Drink <i class="fa-solid fa-wine-glass"></i></td>
+                <td>Soda+Water+Sugar</td>
+                <td>₹ 20</td>
+                <td><button>Order</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="hading">
+        <h1>Colspan And Rowspan Table</h1>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Avarge</th>
+                <th rowspan="2">Red Eye</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male <i class="fa-solid fa-person"></i></td>
+                <td>5.9</td>
+                <td>60</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Femal <i class="fa-solid fa-person-dress"></i></td>
+                <td>4.5</td>
+                <td>40</td>
+                <td>40%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="list-group">
+        <div>
+            <h1>Welcome to Resto</h1>
+
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><strong>Appetizers</strong>
+                    <ul>
+                        <li>Spring Rolls - ₹50</li>
+                        <li>Garlic Bread - ₹40</li>
+                    </ul>
+                </li>
+                <li><strong>Main Course</strong>
+                    <ul>
+                        <li>Grilled Chicken - ₹120</li>
+                        <li>Vegetable Pasta - ₹100</li>
+                        <li>Pizza - ₹80</li>
+                    </ul>
+                </li>
+                <li><strong>Desserts</strong>
+                    <ul>
+                        <li>Chocolate Cake - ₹60</li>
+                        <li>Fruit Salad - ₹50</li>
+                        <li>Drinks - ₹25</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Reservation Table</h2>
+            <table class="reservation-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Time</th>
+                        <th>Guests</th>
+                        <th>Table No</th>
+                        <th>Status</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+                <tbody style="text-align: center;">
+                    <tr>
+                        <td>Alice</td>
+                        <td>7:00 PM</td>
+                        <td>2</td>
+                        <td>001</td>
+                        <td>Booked</td>
+                        <td><button>Cancel</button></td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>8:30 PM</td>
+                        <td>4</td>
+                        <td>002</td>
+                        <td>Booked</td>
+                        <td><button>Cancel</button></td>
+                    </tr>
+                    <tr>
+                        <td>Jhon</td>
+                        <td>10:00 PM</td>
+                        <td>5</td>
+                        <td>003</td>
+                        <td>Booked</td>
+                        <td><button>Cancel</button></td>
+                    </tr>
+                    <tr>
+                        <td>Joe</td>
+                        <td>11:30 PM</td>
+                        <td>2</td>
+                        <td>004</td>
+                        <td>Booked</td>
+                        <td><button>Cancel</button></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

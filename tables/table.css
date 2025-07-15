@@ -1,0 +1,168 @@
+* {
+    margin: 10px auto;
+}
+
+.hading {
+    text-align: center;
+    margin: 20px;
+    color: blueviolet;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td {
+    font-size: large;
+}
+
+th {
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.menu tr:nth-child(odd) {
+    background-color: rgba(169, 116, 219, 0.548);
+}
+
+button {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.card {
+    background: white;
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 180px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fruits .header {
+    background: linear-gradient(135deg, #8BC34A, #CDDC39);
+}
+
+.vegetables .header {
+    background: linear-gradient(135deg, #673AB7, #03A9F4);
+}
+
+.groceries .header {
+    background: linear-gradient(135deg, #E91E63, #FF9800);
+}
+
+.list-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.orderd li {
+    padding-left: 30px;
+}
+
+.listOne li {
+    list-style: square;
+    padding-left: 30px;
+}
+
+.listTwo li {
+    list-style: disc;
+    padding-left: 30px;
+}
+
+
+.fruits ul {
+    counter-reset: fruit-counter;
+}
+
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.device_table {
+    border: 1px solid black;
+}
+
+.heading th {
+    background-color: red;
+    border: 4px solid yellow;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.tabledata td {
+    border: 4px solid yellow;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.pricing-table {
+    text-align: center;
+    width: 800px;
+
+}
+
+.plan-list th {
+    padding: 20px;
+    color: black;
+    background-color: rgb(248, 248, 248);
+}
+
+/* .plan-list,
+th,
+tr,
+td {
+    border: none;
+} */
+
+.price {
+    font-size: xx-large;
+}
+
+
+.select {
+    padding: 10px 30px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.plan-data:nth-child(even) {
+    background-color: #e6edee;
+}
+
+.popular-btn {
+    padding: 10px 30px;
+    border-radius: 0px;
+    background-color: #eb6342;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    margin-bottom: 40px;
+}
+
+.reservation-table {
+    width: 600px;
+}
