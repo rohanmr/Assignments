@@ -2,5 +2,8 @@
 Assignment 01 :
 https://rohanmr.github.io/Assignments/navbars/navbars.html
 
+Assignment 02:
+https://rohanmr.github.io/Assignments/tables/table.html
+
 Assignment 03:
 https://rohanmr.github.io/Assignments/profile/profile.html
