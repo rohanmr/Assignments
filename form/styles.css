@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.simple_form {
+    display: flex;
+    justify-content: center;
+    border: 3px solid gray;
+    padding: 20px;
+    /* width: 400px; */
+    height: 400px;
+}
+
+.simple_form input {
+    width: 300px;
+    height: 30px;
+}
+
+.simple_form label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.simple_form button {
+    width: 300px;
+    height: 30px;
+}
+
+.simple_form p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(108, 108, 255);
+}
+
+.form_conatiner {
+    width: 70%;
+    height: 550px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 20px;
+}
+
+.form_conatiner button {
+    width: 230px;
+    height: 40px;
+    border: none;
+    font-size: medium;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(80, 80, 247);
+}
+
+.input_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.input_container label {
+    font-weight: bold;
+    font-size: small;
+}
+
+
+
+.input_field {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+}
