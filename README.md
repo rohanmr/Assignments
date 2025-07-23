@@ -10,3 +10,9 @@ https://rohanmr.github.io/Assignments/profile/profile.html
 
 Assignment 04:
 https://rohanmr.github.io/Assignments/flex/index.html
+
+Assignment 05:
+
+
+Assignment 06:
+https://rohanmr.github.io/Assignments/css-selectors/index.html
