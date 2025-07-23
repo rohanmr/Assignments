@@ -6,6 +6,13 @@
 
 }
 
+/* .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+} */
+
 .top_nav {
     height: 50px;
     background-color: #00AC4E;
@@ -123,13 +130,25 @@
     gap: 20px;
     margin-top: 60px;
     margin-bottom: 100px;
+    /* overflow: hidden; */
 
 }
 
-.image {
+.image_box_conatiner {
     width: 640px;
     height: 272px;
     border-radius: 5px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 0.3s ease-out
 }
 
 .card_section {
@@ -298,9 +317,18 @@
     top: 20px;
 }
 
-.bottom_banner {
-    margin-top: 50px;
 
+
+.bottom_banner {
+    /* margin-top: 50px; */
+    margin: 10px auto;
+    overflow: hidden;
+    width: 90%;
+}
+
+.bottom_banner img:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 0.3s ease-out
 }
 
 .bot_banner {
@@ -459,9 +487,12 @@ footer {
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
+
 }
 
 .social-icon:hover {
+    cursor: pointer;
     background-color: white;
     color: #00AC4E;
+    transform: translateY(-10px);
 }
