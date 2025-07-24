@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+    height: 70px;
+    background-color: blueviolet;
+}
+
+.heading {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.heading h1 {
+    color: white;
+}
+
+.bgdiv {
+    background-image: linear-gradient(to right, rgb(27, 136, 199), rgb(238, 238, 209), rgb(115, 115, 202));
+    /* height: 500px; */
+}
+
+.musicBar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Bar {
+    width: 7px;
+    height: 70px;
+    margin-right: 3px;
+    background-color: rgb(117, 250, 28);
+}
+
+.B1 {
+    animation: barMoving 1s infinite;
+}
+
+.B2 {
+    animation: barMoving 1s 0.2s infinite;
+}
+
+.B3 {
+    animation: barMoving 1s 0.5s infinite;
+}
+
+.B4 {
+    animation: barMoving 1s 0.7s infinite;
+}
+
+.B5 {
+    animation: barMoving 1s 0.9s infinite;
+}
+
+@keyframes barMoving {
+    0% {
+        height: 70px;
+    }
+
+    50% {
+        height: 30px;
+    }
+
+    100% {
+        height: 60px;
+    }
+
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.custBTN {
+    background-color: transparent;
+    color: black;
+    padding: 7px 16px;
+    font-size: larger;
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+
+
+.custBTN:hover {
+    box-shadow: 2px 2px 4px 2px black;
+    padding: 10px 25px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: 2px solid black;
+    width: 10rem;
+    background-color: rgb(8, 11, 59);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.card_heading {
+    font-size: x-large;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: larger;
+}
+
+.buyNow {
+    background-color: red;
+    color: white;
+    padding: 3px 9px;
+    font-size: large;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 3px yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infosection {
+    width: 90%;
+    margin: auto;
+
+    padding: 1rem;
+}
+
+details {
+    background-color: #191933;
+    color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.iconGroup {
+    padding: 30px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.iocns {
+    margin-top: 20px;
+}
+
+.iocns i {
+    font-size: x-large;
+    margin-left: 10px;
+
+}
+
+i:hover {
+    transform: translateY(-5px);
+    font-size: xx-large;
+    color: slateblue;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:667px) {
+    .bgdiv {
+        background-image: linear-gradient(to right, rgb(125, 125, 216), rgb(238, 78, 78), rgb(219, 112, 130));
+    }
+
+    .btnGroup {
+        flex-wrap: wrap;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .custBTN {
+        background-color: blueviolet;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .card {
+        padding-top: 30px;
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
