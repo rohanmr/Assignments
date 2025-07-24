@@ -261,6 +261,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.right i:hover {
+    color: black;
+}
+
 .right p {
     font-size: small;
     margin-bottom: 10px;
@@ -296,4 +300,59 @@ h2 {
 .right button:hover {
     background-color: #004754;
     color: white;
+}
+
+.bg-conatiner {
+    padding: 30px 20px;
+
+    width: 50%;
+    height: 790px;
+    background: #EEAECA;
+    background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.bg-conatiner h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.name-row {
+    display: flex;
+    gap: 10px;
+}
+
+.name-row input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.input_text_group .fullwidth {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.input_text_group sup {
+    font-size: large;
+    color: red;
 }
