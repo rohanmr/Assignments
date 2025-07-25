@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -304,9 +305,7 @@ h2 {
 
 .bg-conatiner {
     padding: 30px 20px;
-
     width: 50%;
-    height: 790px;
     background: #EEAECA;
     background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
@@ -355,4 +354,58 @@ h2 {
 .input_text_group sup {
     font-size: large;
     color: red;
+}
+
+.verify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.check {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.check_input {
+    display: flex;
+    align-items: center;
+}
+
+.check_input p {
+    font-size: small;
+}
+
+.captcha {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 0 10px;
+    background-color: white;
+}
+
+.captcha_img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #4c4cce;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #21194b;
 }
