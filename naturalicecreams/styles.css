@@ -103,6 +103,10 @@
     color: #00AC4E;
 }
 
+.active {
+    color: #26d575
+}
+
 .heading_sec {
     text-align: center;
     padding-top: 20px;
@@ -325,8 +329,6 @@
     font-size: 16px;
     font-weight: bold;
     color: #333;
-
-
 }
 
 .icon_card_container {
@@ -803,4 +805,137 @@ footer {
 
 .search_btn:hover {
     background-color: #067739;
+}
+
+.ingredient_story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 80px;
+}
+
+.ingredient_story p {
+    color: #7A7A7A;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.ingredient_story_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    gap: 30px;
+}
+
+.ingredient_story_img img {
+    width: 590px;
+}
+
+.ingredient_story_img h1 {
+    font-size: 35px;
+
+
+}
+
+.ingredient_story_img p {
+    color: #7A7A7A;
+    line-height: 1.6;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+    padding-right: 60px;
+}
+
+.source_story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.source-img img {
+
+    width: 100%;
+}
+
+.source_story a:hover {
+    color: #00AC4E;
+}
+
+.blog_container {
+    margin-top: 20px;
+    margin-bottom: 15%;
+}
+
+.blog_card {
+    width: 345px;
+    height: 345px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.blog_card img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    height: auto;
+    display: block;
+
+}
+
+.blog_card .blog-title {
+    padding: 25px 30px;
+    text-transform: uppercase;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-title p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.card_container_blog {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 180px;
+    column-gap: 30px;
+}
+
+.blog_btn {
+    width: 100%;
+    height: 40px;
+    font-size: medium;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #d6d7d8;
+    background-color: #00AC4E;
+    color: white;
+    text-align: center;
+}
+
+
+
+.blog_btn:hover {
+    background-color: #067739;
+}
+
+.blog-title:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
