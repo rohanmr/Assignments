@@ -16,3 +16,6 @@ https://rohanmr.github.io/Assignments/form/index.html
 
 CSS Selector Assignment 06:
 https://rohanmr.github.io/Assignments/css-selectors/index.html
+
+Natural Ice Cream Site Assignment 07:
+https://rohanmr.github.io/Assignments/naturalicecreams/index.html
