@@ -1,0 +1,90 @@
+ .grid_container {
+     display: grid;
+     grid-template-columns: 200px 200px 200px;
+     grid-template-rows: 200px 200px 200px;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+ }
+
+ .grid_container div {
+     width: 200px;
+     height: 200px;
+     color: white;
+     text-align: center;
+
+ }
+
+ .orange {
+     background-color: orange;
+ }
+
+ .blue {
+     background-color: blue;
+ }
+
+ .green {
+     background-color: green;
+ }
+
+ .purpul {
+     background-color: purple;
+ }
+
+ .black {
+     background-color: black;
+ }
+
+ .pink {
+     background-color: pink;
+ }
+
+ .voilet {
+     background-color: violet;
+ }
+
+ .yellow {
+     background-color: yellow;
+ }
+
+ .brown {
+     background-color: brown;
+ }
+
+
+ .container {
+     display: grid;
+     grid-template-areas:
+         "header  header"
+         "aside main"
+         "aside  footer";
+     grid-template-columns: 250px 1fr;
+     grid-template-rows: 80px 1fr;
+     min-height: 100vh;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     gap: 10px;
+ }
+
+ header {
+     grid-area: header;
+
+     background: yellow;
+ }
+
+ aside {
+     grid-area: aside;
+     background-color: green;
+ }
+
+ main {
+     grid-area: main;
+     background-color: rgb(199, 199, 184);
+ }
+
+ footer {
+     grid-area: footer;
+     height: 100px;
+     background-color: red;
+ }
