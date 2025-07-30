@@ -19,3 +19,6 @@ https://rohanmr.github.io/Assignments/css-selectors/index.html
 
 Natural Ice Cream Site Assignment 07:
 https://rohanmr.github.io/Assignments/naturalicecreams/index.html
+
+Grid Assignment 08:
+https://rohanmr.github.io/Assignments/grid/index.html
