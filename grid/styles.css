@@ -88,3 +88,180 @@
      height: 100px;
      background-color: red;
  }
+
+ .gallery {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     grid-template-columns: repeat(3, 200px)
+ }
+
+ .gallery img {
+     width: 100%;
+     height: 200px;
+     display: block;
+     border-radius: 8px;
+ }
+
+ .gallery img:hover {
+     transform: scale(1.1);
+     cursor: pointer;
+ }
+
+ .dashboard {
+     display: grid;
+     grid-template-areas:
+         'nav    nav   nav   nav'
+         'LAside mainC  mainC  RAside'
+         'LAside foo foo RAside';
+ }
+
+ .dashboard .header {
+     height: 90px;
+     background-color: rgb(247, 146, 15);
+     width: 100%;
+     grid-area: nav;
+     margin-top: 50px;
+ }
+
+ .dashboard .sidebar {
+     background-color: gray;
+     grid-area: LAside;
+ }
+
+ .dashboard .main {
+     height: 600px;
+     background-color: sandybrown;
+
+     grid-area: mainC;
+ }
+
+ .dashboard .right {
+     height: 700px;
+     background-color: rgb(212, 74, 212);
+
+     grid-area: RAside;
+ }
+
+ .dashboard .footer {
+
+     background-color: rgb(50, 144, 231);
+     width: 100%;
+     grid-area: foo;
+ }
+
+ .product-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 250px);
+     gap: 30px;
+     margin-top: 30px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .product-card {
+     background-color: #f1f7f9;
+     padding: 20px;
+     border-radius: 8px;
+     text-align: center;
+
+ }
+
+ .product-card img {
+     max-width: 100%;
+     height: 160px;
+     object-fit: contain;
+     margin-bottom: 15px;
+ }
+
+ .product-card h3 {
+     font-size: 1rem;
+     font-weight: 600;
+     margin-bottom: 5px;
+ }
+
+
+
+ .product-card a {
+     text-decoration: none;
+     color: #67c6cc;
+     font-weight: 600;
+     font-size: 0.9rem;
+     transition: color 0.2s ease;
+ }
+
+ .product-card a:hover {
+     color: #49a3a8;
+ }
+
+
+ .fruitContainer {
+     width: 900px;
+     height: 700px;
+     display: grid;
+     margin: 50px auto;
+     gap: 10px;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+
+ }
+
+ .fruitContainer>div {
+     overflow: hidden;
+ }
+
+ .grapes {
+
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 1;
+     grid-column-end: 2;
+ }
+
+ .fruitContainer img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .strawberry {
+
+     grid-row-start: 1;
+     grid-row-end: 2;
+     grid-column-start: 2;
+     grid-column-end: 3;
+ }
+
+ .watermelon {
+
+     grid-row-start: 1;
+     grid-row-end: 3;
+     grid-column-start: 3;
+     grid-column-end: 5;
+
+ }
+
+ .Orange {
+
+     grid-row-start: 2;
+     grid-row-end: 3;
+     grid-column-start: 1;
+     grid-column-end: 3;
+ }
+
+ .papaya {
+
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 1;
+     grid-column-end: 3;
+ }
+
+ .pineapple {
+
+     grid-row-start: 3;
+     grid-row-end: 4;
+     grid-column-start: 3;
+     grid-column-end: 5;
+ }
