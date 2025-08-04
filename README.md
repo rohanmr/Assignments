@@ -22,3 +22,6 @@ https://rohanmr.github.io/Assignments/naturalicecreams/index.html
 
 Grid Assignment 08:
 https://rohanmr.github.io/Assignments/grid/index.html
+
+Furniture Shop Assignment 09:
+https://rohanmr.github.io/furniture-shop-site/
